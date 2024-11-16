@@ -117,7 +117,7 @@ const config: Configuration = {
                                 'https://github.com/flybywiresim/a32nx/releases/download/assets/experimental/',
                             ],
                             description: 'Development will have the latest features that will end up in the next stable. ' +
-                                'Bugs are to be expected. It updates whenever something is added to the \'master\' ' +
+                                'Although every change is QA-tested, bugs are a little more likely. It updates whenever something is added to the \'master\' ' +
                                 'branch on Github. Please visit our discord for support.',
                             isExperimental: false,
                             releaseModel: {
@@ -271,14 +271,17 @@ const config: Configuration = {
                     tracks: [
                         {
                             name: 'Stable (4K)',
-                            key: 'a32nx-stable-4k',
+                            key: 'a380x-stable-4k',
                             url: 'https://flybywirecdn.com/addons/a380x/stable-4k',
                             alternativeUrls: [],
-                            description: 'Includes our 4K downscaled cabin, cockpit and exterior textures. Choose this option for reduced stutters, better performance, with HIGH or lower texture resolution. Additionally, if you intend to use the following:\n\n' +
-                            '* Use frame generation \n\n' +
-                            '* Virtual Reality (VR) \n\n' +
-                            '* DX12 beta \n\n' +
-                            '* or are otherwise limited by your graphics card VRAM amount. [System Requirements](https://docs.flybywiresim.com/aircraft/install/installation/#estimated-system-requirements-for-a380x)',
+                            description: 'Includes our 4K downscaled cabin, cockpit and exterior textures. Choose this option for reduced ' +
+                                'stutters, better performance, with HIGH or lower texture resolution. Especially, if you intend to use the ' +
+                                'following:\n\n' +
+                                '* Use frame generation \n\n' +
+                                '* Virtual Reality (VR) \n\n' +
+                                '* DX12 beta \n\n' +
+                                '* or are otherwise limited by your graphics card VRAM amount. ' +
+                                '[System Requirements](https://docs.flybywiresim.com/aircraft/install/installation/#estimated-system-requirements-for-a380x)',
                             isExperimental: false,
                             releaseModel: {
                                 type: 'fragmenter',
@@ -286,12 +289,49 @@ const config: Configuration = {
                         },
                         {
                             name: 'Stable (8K)',
-                            key: 'a32nx-stable-8k',
+                            key: 'a380x-stable-8k',
                             url: 'https://flybywirecdn.com/addons/a380x/stable-8k',
                             alternativeUrls: [],
-                            description: 'Includes our 8K full resolution cabin, cockpit and exterior textures. This is the full fidelity experience and our recommendation if your system is powerful enough to support it. Realistic and in high detail.\n\n' +
-                            '* DX11 recommended \n\n' +
-                            '* HIGH or lower texture resolution setting recommended \n\n',
+                            description: 'Includes our 8K full resolution cabin, cockpit and exterior textures. This is the full fidelity ' +
+                                'experience and our recommendation if your system is powerful enough to support it. Realistic and in high ' +
+                                'detail.\n\n' +
+                                '* DX11 recommended \n\n' +
+                                '* HIGH or lower texture resolution setting recommended \n\n',
+                            isExperimental: false,
+                            releaseModel: {
+                                type: 'fragmenter',
+                            },
+                        },
+                        {
+                            name: 'Development (4K)',
+                            key: 'a380x-dev-4k',
+                            url: 'https://flybywirecdn.com/addons/a380x/master-4k',
+                            alternativeUrls: [],
+                            description: 'Development will have the latest features that will end up in the next stable. ' +
+                                'Although every change is QA-tested, bugs are a little more likely. It updates whenever something is added to ' +
+                                'the \'master\' branch on Github. Please visit our discord for support. \n\n' +
+                                'Includes our 4K downscaled cabin, cockpit and exterior textures. Choose this option for reduced ' +
+                                'stutters, better performance, with HIGH or lower texture resolution. Especially, if you intend to use the ' +
+                                'following:\n\n' +
+                                '* Use frame generation \n\n' +
+                                '* Virtual Reality (VR) \n\n' +
+                                '* DX12 beta \n\n' +
+                                '* or are otherwise limited by your graphics card VRAM amount. ',
+                            isExperimental: false,
+                            releaseModel: {
+                                type: 'fragmenter',
+                            },
+                        },
+                        {
+                            name: 'Development (8K)',
+                            key: 'a380x-dev-8k',
+                            url: 'https://flybywirecdn.com/addons/a380x/master-8k',
+                            alternativeUrls: [],
+                            description: 'Development will have the latest features that will end up in the next stable. ' +
+                                'Although every change is QA-tested, bugs are a little more likely. It updates whenever something is added to ' +
+                                'the \'master\' branch on Github. Please visit our discord for support. \n\n' +
+                                '* DX11 recommended \n\n' +
+                                '* HIGH or lower texture resolution setting recommended \n\n',
                             isExperimental: false,
                             releaseModel: {
                                 type: 'fragmenter',
@@ -305,8 +345,26 @@ const config: Configuration = {
                         // description: a short description of why the addon is incompatible
                         {
                             title: 'Mets747 FBW A380 Lights Mod',
-                            description: "It is required to remove this add-on before installing and using the A32NX. This add-on overrides A32NX components and may render the A32NX unusable."
+                            description: "It is recommended to remove this add-on before installing and using the A380X. This add-on overrides " +
+                                "A380X components and may render the A380X unusable."
                         },
+                        {
+                            title: 'a380_light_mod',
+                            description: "It is required to remove this add-on before installing and using the A380X. This add-on overrides " +
+                                "A380X components and may render the A380X unusable."
+                        },
+                        {
+                            title: 'Super6uo FBW A380X Realistic Light Enhancement',
+                            description: "It is required to remove this add-on before installing and using the A380X. This add-on overrides " +
+                                "A380X components and may render the A380X unusable."
+                        },
+                        {
+                            title: 'FlyByWire Airbus A380X OIT Functionality',
+                            description: "It is required to remove this add-on before installing and using the A380X. This add-on overrides " +
+                                "A380X components and may render the A380X unusable."
+                        },
+
+
                     ],
                     disallowedRunningExternalApps: ['@/msfs'],
                 },
