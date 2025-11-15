@@ -49,8 +49,9 @@ const config: Configuration = {
             ],
             addons: [
                 {
-                    key: 'A32NX',
+                    key: 'a32nx-msfs2020',
                     name: 'A32NX',
+                    simulator: 'msfs2020',
                     repoOwner: 'flybywiresim',
                     repoName: 'aircraft',
                     category: '@aircraft',
@@ -58,7 +59,6 @@ const config: Configuration = {
                     titleImageUrl: 'https://flybywirecdn.com/installer/media-assets/addon-titles/fbw-a32nx/dark.svg',
                     titleImageUrlSelected: 'https://flybywirecdn.com/installer/media-assets/addon-titles/fbw-a32nx/light.svg',
                     enabled: true,
-                    // TODO: Change this
                     backgroundImageUrls: ['https://flybywirecdn.com/installer/media-assets/addon-headers/fbw-a32nx/1.png'],
                     shortDescription: 'Airbus A320neo Series',
                     description: 'The A320neo (new engine option) is one of many upgrades introduced by Airbus to help maintain ' +
@@ -81,6 +81,13 @@ const config: Configuration = {
                         'A32NX',
                         'a32nx',
                     ],
+                    dependencies: [
+                        {
+                            addon: '@flybywiresim/simbridge-msfs2020',
+                            optional: true,
+                            modalText: 'SimBridge allows the A32NX to expose remote tools like the Web MCDU, as well as use the external terrain database.',
+                        },
+                    ],
                     tracks: [
                         {
                             name: 'Stable',
@@ -88,7 +95,7 @@ const config: Configuration = {
                             url: 'https://flybywirecdn.com/addons/a32nx/stable',
                             alternativeUrls: [
                                 'external/a32nx/stable',
-                                 // move bunnycdn users to cloudflare
+                                // move bunnycdn users to cloudflare
                                 'https://cdn.flybywiresim.com/addons/a32nx/stable',
                             ],
                             description: 'The stable edition is for those who need a stable home cockpit API, or controlled upgrades every few months. ' +
@@ -123,13 +130,6 @@ const config: Configuration = {
                             releaseModel: {
                                 type: 'fragmenter',
                             },
-                        },
-                    ],
-                    dependencies: [
-                        {
-                            addon: '@flybywiresim/simbridge',
-                            optional: true,
-                            modalText: 'SimBridge allows the A32NX to expose remote tools like the Web MCDU, as well as use the external terrain database.',
                         },
                     ],
                     incompatibleAddons: [
@@ -241,8 +241,9 @@ const config: Configuration = {
                     disallowedRunningExternalApps: ['@/msfs', '@/mcdu-server'],
                 },
                 {
+                    key: 'a380x-msfs2020',
                     name: 'A380X',
-                    key: 'A380X',
+                    simulator: 'msfs2020',
                     repoOwner: 'flybywiresim',
                     repoName: 'aircraft',
                     category: '@aircraft',
@@ -267,6 +268,13 @@ const config: Configuration = {
                     alternativeNames: [
                         'A380X',
                         'a380x'
+                    ],
+                    dependencies: [
+                        {
+                            addon: '@flybywiresim/simbridge-msfs2020',
+                            optional: true,
+                            modalText: 'SimBridge allows the A380X to use the external terrain database.',
+                        },
                     ],
                     tracks: [
                         {
@@ -363,17 +371,15 @@ const config: Configuration = {
                             description: "It is required to remove this add-on before installing and using the A380X. This add-on overrides " +
                                 "A380X components and may render the A380X unusable."
                         },
-                        {
-                            title: 'Bright_Light_A380',
-                            description: "It is required to remove this add-on before installing and using the A380X. This add-on overrides " +
-                                "A380X components and may render the A380X unusable."
-			},
+
+
                     ],
                     disallowedRunningExternalApps: ['@/msfs'],
                 },
                 {
                     name: 'KFBW',
                     key: 'KFBW',
+                    simulator: 'msfs2020',
                     category: '@scenery',
                     aircraftName: 'FBW Headquarters',
                     enabled: true,
@@ -408,8 +414,9 @@ const config: Configuration = {
                     ],
                 },
                 {
+                    key: 'simbridge-msfs2020',
                     name: 'SimBridge',
-                    key: 'simbridge',
+                    simulator: 'msfs2020',
                     category: '@simbridge',
                     repoOwner: 'flybywiresim',
                     repoName: 'simbridge',
@@ -502,6 +509,7 @@ const config: Configuration = {
                 {
                     key: '74S',
                     name: '74S',
+                    simulator: 'msfs2020',
                     repoOwner: 'saltysimulations',
                     repoName: 'salty-747',
                     category: '@aircraft',
@@ -593,6 +601,7 @@ const config: Configuration = {
                 {
                     key: 'traffic-base-models',
                     name: 'FSLTL Traffic',
+                    simulator: 'msfs2020',
                     aircraftName: 'FSLTL Traffic',
                     titleImageUrl: 'https://flybywirecdn.com/installer/media-assets/addon-titles/fsltl/base-models/dark.svg',
                     titleImageUrlSelected: 'https://flybywirecdn.com/installer/media-assets/addon-titles/fsltl/base-models/light.svg',
@@ -600,8 +609,8 @@ const config: Configuration = {
                     backgroundImageUrls: ['https://flybywirecdn.com/installer/media-assets/addon-headers/fsltl/traffic/0.png'],
                     shortDescription: 'FSLTL Traffic Base Models',
                     description:
-                        'FSLTL is a free standalone real-time online traffic overhaul and VATSIM model-matching solution for MSFS.\n\n'+
-                        'Utilising native glTF models and MSFS independent online IFR/VFR traffic injection system with stock ATC interaction based on Flightradar24.\n\n'+
+                        'FSLTL is a free standalone real-time online traffic overhaul and VATSIM model-matching solution for MSFS.\n\n' +
+                        'Utilising native glTF models and MSFS independent online IFR/VFR traffic injection system with stock ATC interaction based on Flightradar24.\n\n' +
                         'This is the base model / livery pack required for FSLTL Injector, MSFS default live traffic or VATSIM use.',
                     targetDirectory: 'fsltl-traffic-base',
                     alternativeNames: [],
@@ -614,9 +623,9 @@ const config: Configuration = {
                             releaseModel: {
                                 type: 'CDN',
                             },
-                            description: 'Stable release of the aircraft models, liveries and VMR file.\n\n'+
-                            'This packages is required to see matched models / liveries if you are using FSLTL Injector, MSFS default live traffic or VATSIM.\n\n'+
-                            'A vmr file is provided in the package for VATSIM client use.',
+                            description: 'Stable release of the aircraft models, liveries and VMR file.\n\n' +
+                                'This packages is required to see matched models / liveries if you are using FSLTL Injector, MSFS default live traffic or VATSIM.\n\n' +
+                                'A vmr file is provided in the package for VATSIM client use.',
                         },
                     ],
                     disallowedRunningExternalApps: ['@/msfs'],
@@ -624,16 +633,17 @@ const config: Configuration = {
                 {
                     key: 'traffic-injector',
                     name: 'FSLTL Injector',
+                    simulator: 'msfs2020',
                     aircraftName: 'FSLTL Traffic',
                     titleImageUrl: 'https://flybywirecdn.com/installer/media-assets/addon-titles/fsltl/injector/dark.svg',
                     titleImageUrlSelected: 'https://flybywirecdn.com/installer/media-assets/addon-titles/fsltl/injector/light.svg',
                     enabled: true,
                     backgroundImageUrls: ['https://flybywirecdn.com/installer/media-assets/addon-headers/fsltl/traffic/0.png'],
                     shortDescription: 'FSLTL Traffic Injector Software',
-                    description: 'FSLTL Live Traffic Injector - giving you a more immersive experience at airports globally!\n\n'+
-                    '- Live IFR and VFR traffic based on Flightradar24\n\n'+
-                    '- Parked aircraft based on historic real data for immersive full airports\n\n'+
-                    '- Ability to have any combination of IFR, VFR and parked aircraft',
+                    description: 'FSLTL Live Traffic Injector - giving you a more immersive experience at airports globally!\n\n' +
+                        '- Live IFR and VFR traffic based on Flightradar24\n\n' +
+                        '- Parked aircraft based on historic real data for immersive full airports\n\n' +
+                        '- Ability to have any combination of IFR, VFR and parked aircraft',
                     targetDirectory: 'fsltl-traffic-injector',
                     tracks: [
                         {
@@ -644,8 +654,8 @@ const config: Configuration = {
                             releaseModel: {
                                 type: 'fragmenter',
                             },
-                            description: 'FSLTL Traffic Injector for use on stable versions of MSFS 2020/2024.\n\n'+
-                            'Follow the user guide at https://www.fslivetrafficliveries.com/user-guide/ before use.',
+                            description: 'FSLTL Traffic Injector for use on stable versions of MSFS 2020/2024.\n\n' +
+                                'Follow the user guide at https://www.fslivetrafficliveries.com/user-guide/ before use.',
                         },
                     ],
                     backgroundService: {
