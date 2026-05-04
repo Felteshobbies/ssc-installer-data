@@ -1,5 +1,9 @@
 {
   "version": 1,
+  "installer": {
+    "latestVersion": "1.0.0",
+    "downloadUrl": "https://github.com/Felteshobbies/ssc-installer-cs/releases/latest/download/SscInstaller.exe"
+  },
   "home": {
     "links": [
       { "title": "Website",       "url": "https://simsoaring.club" },
