@@ -1,2 +1,14 @@
 node_modules/
 .idea/
+
+# Legacy Electron/FBW build system (no longer used)
+buildSrc/
+scripts/
+config/
+dist/
+lib.d.ts
+package.json
+package-lock.json
+tsconfig.json
+README.md
+.github/
