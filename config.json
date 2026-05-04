@@ -1,0 +1,18 @@
+{
+  "version": 1,
+  "home": {
+    "links": [
+      { "title": "Website",       "url": "https://simsoaring.club" },
+      { "title": "Discord",       "url": "https://discord.simsoaring.club" },
+      { "title": "Documentation", "url": "https://docs.simsoaring.club" }
+    ]
+  },
+  "categories": [
+    { "key": "glider",  "title": "Glider" },
+    { "key": "weather", "title": "Weather Presets" },
+    { "key": "logger",  "title": "Logger" },
+    { "key": "tracker", "title": "Tracker" },
+    { "key": "tasks",   "title": "Tasks" }
+  ],
+  "packages": []
+}

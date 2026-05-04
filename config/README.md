@@ -1,3 +1,0 @@
-# Installer Configuration Documentation
-
-TBD

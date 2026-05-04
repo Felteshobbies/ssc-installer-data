@@ -1,4 +1,2 @@
-/.idea/
-/node_modules/
-/buildSrc/build.js
-/config/config.js
+node_modules/
+.idea/
