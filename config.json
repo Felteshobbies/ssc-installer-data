@@ -28,18 +28,21 @@
       "communityInstall": false,
       "type": "binary",
       "shortDescription": "Aircraft tracking and task monitoring for glider pilots",
-      "description": "SSC-Tracker is the companion app for the Sim Soaring Club.\n\nIt provides real-time aircraft tracking on a map, terrain and wind data display, and task monitoring for soaring activities in Microsoft Flight Simulator.\n\nConnect with other SSC pilots during weekly group flights and competitions.",
+      "description": "SSC-Tracker is the companion app for the Sim Soaring Club. It provides real-time aircraft tracking on a map, terrain and wind data display, and task monitoring for soaring activities in Microsoft Flight Simulator. Connect with other SSC pilots during weekly group flights and competitions.",
       "iconUrl": "https://www.ssc-tracker.org/sscWhite.png",
       "downloadUrl": "https://www.ssc-tracker.org/updates/ssc-tracker.zip",
       "remoteVersion": {
         "type": "none"
       },
       "localVersion": {
-        "type": "directoryNotEmpty"
-      },
+        "type": "fileVersion",
+        "path": "ssc-tracker.exe"
+      }
+,
       "links": [        
-        { "title": "Discord",    "url": "https://discord.simsoaring.club" },
-        { "title": "ssc-tracker.org", "url": "https://www.ssc-tracker.org" }
+        { "title": "Discord",    "url": "https://discord.com/channels/876123356385149009/1210244466628100106" },
+        { "title": "SSC-Tracker.org", "url": "https://www.ssc-tracker.org" },
+        { "title": "Documentation", "url": "https://www.ssc-tracker.org/help/help.html" }
       ]
     },
 	{
@@ -51,7 +54,7 @@
       "communityInstall": false,
       "type": "binary",
       "shortDescription": "Aircraft tracking and task monitoring for glider pilots",
-      "description": "SSC-Tracker is the companion app for the Sim Soaring Club.\n\nIt provides real-time aircraft tracking on a map, terrain and wind data display, and task monitoring for soaring activities in Microsoft Flight Simulator.\n\nConnect with other SSC pilots during weekly group flights and competitions.",
+      "description": "SSC-Tracker is the companion app for the Sim Soaring Club. It provides real-time aircraft tracking on a map, terrain and wind data display, and task monitoring for soaring activities in Microsoft Flight Simulator. Connect with other SSC pilots during weekly group flights and competitions.",
       "iconUrl": "https://www.ssc-tracker.org/sscWhite.png",
       "downloadUrl": "https://www.ssc-tracker.org/updates/ssc-tracker.zip",
       "remoteVersion": {
