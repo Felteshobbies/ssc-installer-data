@@ -1,8 +1,8 @@
 {
   "version": 1,
   "installer": {
-    "latestVersion": "1.0.0",
-    "downloadUrl": "https://github.com/Felteshobbies/ssc-installer-cs/releases/latest/download/SscInstaller.exe"
+  "latestVersion": "1.0.0",
+  "downloadUrl": "https://github.com/Felteshobbies/ssc-installer-cs/releases/latest/download/SscInstaller.exe"
   },
   "home": {
     "links": [
@@ -15,8 +15,8 @@
     { "key": "glider", "title": "Glider" },
     { "key": "weather", "title": "Weather Presets" },
     { "key": "logger",  "title": "Logger"  },
-	{ "key": "tracker",  "title": "Tracker", "imageUrl": ""  },
-	{ "key": "tasks",  "title": "Tasks", "imageUrl": ""  }
+	  { "key": "tracker",  "title": "Tracker", "imageUrl": ""  },
+	  { "key": "tasks",  "title": "Tasks", "imageUrl": ""  }
   ],
   "packages": [
     {
@@ -73,28 +73,30 @@
       ]
     },	
 	{
-      "key": "weather-presets-v3",
-      "name": "Weather Presets v3",
+      "key": "weather-presets-2024",
+      "name": "SSC Weather Presets",
       "category": "weather",
-      "forMsfs2020": true,
+      "forMsfs2020": false,
       "forMsfs2024": true,
       "required": true,
-      "communityInstall": false,
+      "communityInstall": true,
+      "targetDirectory": "SSC-Weather-MSFS_2024",
       "type": "binary",
-      "shortDescription": "Aircraft tracking and task monitoring for glider pilots",
-      "description": "SSC-Tracker is the companion app for the Sim Soaring Club.\n\nIt provides real-time aircraft tracking on a map, terrain and wind data display, and task monitoring for soaring activities in Microsoft Flight Simulator.\n\nConnect with other SSC pilots during weekly group flights and competitions.",
-      "iconUrl": "https://www.ssc-tracker.org/sscWhite.png",
-      "downloadUrl": "https://www.ssc-tracker.org/updates/ssc-tracker.zip",
+      "shortDescription": "SSC Soaring Weather Presets for MSFS 2024",
+      "description": "This add-on includes 122 presets optimized to provide realistic lift conditions for thermal and ridge soaring around the world.",
+      "downloadUrl": "https://github.com/Felteshobbies/ssc-installer-data/releases/download/SSC-Weather-MSFS_2024-v4.5.1/SSC-Weather-MSFS_2024.zip",
       "remoteVersion": {
-        "type": "none"
+        "type": "githubRelease",
+        "owner": "Felteshobbies",
+        "repo": "ssc-installer-data",
+        "tagPrefix": "SSC-Weather-MSFS_2024-"
       },
       "localVersion": {
-        "type": "directoryNotEmpty"
+        "type": "fileContent",
+        "path": "manifest.json",
+        "pattern": "\"package_version\":\\s*\"([^\"]+)\""
       },
-      "links": [        
-        { "title": "NB21 Logger",    "url": "https://de.flightsim.to/addon/64628/nb21-logger" },
-        { "title": "ssc-tracker.org", "url": "https://www.ssc-tracker.org" }
-      ]
+      "links": []
     },
 	{
       "key": "as33gt",
