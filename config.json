@@ -13,7 +13,7 @@
   },
   "categories": [
     { "key": "glider", "title": "Glider" },
-    { "key": "weather", "title": "Weather Presets" },
+    { "key": "weather", "title": "Weather" },
     { "key": "logger",  "title": "Logger"  },
 	  { "key": "tracker",  "title": "Tracker", "imageUrl": ""  },
 	  { "key": "tasks",  "title": "Tasks", "imageUrl": ""  }
@@ -74,7 +74,7 @@
     },	
 	{
       "key": "weather-presets-2024",
-      "name": "SSC Weather Presets",
+      "name": "SSC Weather",
       "category": "weather",
       "imageUrl": "https://raw.githubusercontent.com/Felteshobbies/ssc-installer-data/production/banners/banner_weather.png",
       "forMsfs2020": false,
