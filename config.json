@@ -76,6 +76,7 @@
       "key": "weather-presets-2024",
       "name": "SSC Weather Presets",
       "category": "weather",
+      "imageUrl": "https://raw.githubusercontent.com/Felteshobbies/ssc-installer-data/production/banners/banner_weather.png",
       "forMsfs2020": false,
       "forMsfs2024": true,
       "required": true,
