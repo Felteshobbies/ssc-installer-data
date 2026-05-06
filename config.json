@@ -153,7 +153,7 @@
         { "title": "ssc-tracker.org", "url": "https://www.ssc-tracker.org" }
       ]
     },	
-	{
+	  {
       "key": "as33madolo",
       "name": "AS33 Madolo",
       "category": "glider",
@@ -174,20 +174,18 @@
       "links": [               
         { "title": "ssc-tracker.org", "url": "https://www.ssc-tracker.org" }
       ]
-    },
-	
-	{
+    },	
+	  {
       "key": "ask21",
       "name": "ASK21",
       "category": "glider",
+      "imageUrl": "https://raw.githubusercontent.com/Felteshobbies/ssc-installer-data/production/banners/banner_ask21.png",
       "forMsfs2020": true,
       "forMsfs2024": true,
       "communityInstall": false,
-      "type": "binary",
-      "shortDescription": "Aircraft tracking and task monitoring for glider pilots",
-      "description": "SSC-Tracker is the companion app for the Sim Soaring Club.\n\nIt provides real-time aircraft tracking on a map, terrain and wind data display, and task monitoring for soaring activities in Microsoft Flight Simulator.\n\nConnect with other SSC pilots during weekly group flights and competitions.",
-      "iconUrl": "https://www.ssc-tracker.org/sscWhite.png",
-      "downloadUrl": "https://www.ssc-tracker.org/updates/ssc-tracker.zip",
+      "type": "link",
+      "shortDescription": "f7 simulations ASK21 for MSFS",
+      "description": "The ASK 21 is a popular German two-seater glider, first built in 1979. It is primarily used for beginner instruction and aerobatics training, as well as for transitioning pilots from older wooden gliders like the K 8 to modern single-seat composite gliders. Capable of withstanding g-loads of +6.5 and -4G, it has a maximum speed of 280 km/h.",
       "remoteVersion": {
         "type": "none"
       },
@@ -195,7 +193,7 @@
         "type": "directoryNotEmpty"
       },
       "links": [               
-        { "title": "ssc-tracker.org", "url": "https://www.ssc-tracker.org" }
+        { "title": "iniBuilds Shop", "url": "https://inibuilds.com/products/f7-simulations-ask-21-msfs" }
       ]
     },	
 	{
