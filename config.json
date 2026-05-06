@@ -183,7 +183,7 @@
       "forMsfs2020": true,
       "forMsfs2024": true,
       "communityInstall": true,      
-      "targetDirectory": "f7_simulations_ask21",
+      "targetDirectory": "f7simulations-k21",
       "type": "shop",
       "url": "https://inibuilds.com/products/f7-simulations-ask-21-msfs",
       "shortDescription": "f7 simulations ASK21 for MSFS",
