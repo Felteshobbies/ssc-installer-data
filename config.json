@@ -40,18 +40,18 @@
       "localVersion": {
         "type": "fileVersion",
         "path": "ssc-tracker.exe"
-      }
-,
+      },
       "links": [        
         { "title": "Discord",    "url": "https://discord.com/channels/876123356385149009/1210244466628100106" },
         { "title": "SSC-Tracker.org", "url": "https://www.ssc-tracker.org" },
         { "title": "Documentation", "url": "https://www.ssc-tracker.org/help/help.html" }
       ]
     },
-	{
+	  {
       "key": "nb21-logger",
       "name": "NB21 Logger",
       "category": "logger",
+      "imageUrl": "https://raw.githubusercontent.com/Felteshobbies/ssc-installer-data/production/banners/banner_logger.png",
       "forMsfs2020": true,
       "forMsfs2024": true,
       "required": true,
@@ -76,7 +76,7 @@
         { "title": "NB21 Logger",    "url": "https://de.flightsim.to/addon/64628/nb21-logger" }        
       ]
     },	
-	{
+	  {
       "key": "weather-presets-2024",
       "name": "SSC Weather",
       "category": "weather",
