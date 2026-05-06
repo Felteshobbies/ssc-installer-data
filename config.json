@@ -98,8 +98,35 @@
         "pattern": "\"package_version\":\\s*\"([^\"]+)\""
       },
       "links": []
+    },    
+	  {
+      "key": "weather-presets-2020",
+      "name": "SSC Weather",
+      "category": "weather",
+      "imageUrl": "https://raw.githubusercontent.com/Felteshobbies/ssc-installer-data/production/banners/banner_weather.png",
+      "forMsfs2020": true,
+      "forMsfs2024": false,
+      "required": true,
+      "communityInstall": true,
+      "targetDirectory": "SSC-Weather-MSFS_2020",
+      "type": "binary",
+      "shortDescription": "SSC Soaring Weather Presets for MSFS 2020",
+      "description": "This add-on includes 122 presets optimized to provide realistic lift conditions for thermal and ridge soaring around the world.",
+      "downloadUrl": "https://github.com/Felteshobbies/ssc-installer-data/releases/download/SSC-Weather-MSFS_2020-v4.5.1/SSC-Weather-MSFS_2020.zip",
+      "remoteVersion": {
+        "type": "githubRelease",
+        "owner": "Felteshobbies",
+        "repo": "ssc-installer-data",
+        "tagPrefix": "SSC-Weather-MSFS_2020-"
+      },
+      "localVersion": {
+        "type": "fileContent",
+        "path": "manifest.json",
+        "pattern": "\"package_version\":\\s*\"([^\"]+)\""
+      },
+      "links": []
     },
-	{
+	  {
       "key": "as33gt",
       "name": "AS33 GotFriends",
       "category": "glider",
