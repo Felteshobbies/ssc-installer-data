@@ -182,7 +182,7 @@
       "imageUrl": "https://raw.githubusercontent.com/Felteshobbies/ssc-installer-data/production/banners/banner_ask21.png",
       "forMsfs2020": true,
       "forMsfs2024": true,
-      "communityInstall": false,      
+      "communityInstall": true,      
       "type": "shop",
       "url": "https://inibuilds.com/products/f7-simulations-ask-21-msfs",
       "shortDescription": "f7 simulations ASK21 for MSFS",
