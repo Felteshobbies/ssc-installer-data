@@ -188,6 +188,10 @@
       "url": "https://inibuilds.com/products/f7-simulations-ask-21-msfs",
       "shortDescription": "f7 simulations ASK21 for MSFS",
       "description": "The ASK 21 is a popular German two-seater glider, first built in 1979. It is primarily used for beginner instruction and aerobatics training, as well as for transitioning pilots from older wooden gliders like the K 8 to modern single-seat composite gliders. Capable of withstanding g-loads of +6.5 and -4G, it has a maximum speed of 280 km/h.",
+      "remoteVersion": {
+        "type": "configValue",
+        "version": "1.3.0"
+      },  
       "localVersion": {
         "type": "fileContent",
         "path": "manifest.json",
