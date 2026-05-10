@@ -223,26 +223,21 @@
         { "title": "ssc-tracker.org", "url": "https://www.ssc-tracker.org" }
       ]
     },	
-	{
+	  {
       "key": "wesimglide",
-      "name": "WesimgGlide",
+      "name": "WeSimGlide",
+      "imageUrl": "https://raw.githubusercontent.com/Felteshobbies/ssc-installer-data/production/banners/banner_wesimglide.png",
       "category": "tasks",
       "forMsfs2020": true,
       "forMsfs2024": true,
       "communityInstall": false,
-      "type": "binary",
-      "shortDescription": "Aircraft tracking and task monitoring for glider pilots",
-      "description": "SSC-Tracker is the companion app for the Sim Soaring Club.\n\nIt provides real-time aircraft tracking on a map, terrain and wind data display, and task monitoring for soaring activities in Microsoft Flight Simulator.\n\nConnect with other SSC pilots during weekly group flights and competitions.",
-      "iconUrl": "https://www.ssc-tracker.org/sscWhite.png",
-      "downloadUrl": "https://www.ssc-tracker.org/updates/ssc-tracker.zip",
-      "remoteVersion": {
-        "type": "none"
-      },
-      "localVersion": {
-        "type": "directoryNotEmpty"
-      },
+      "type": "link",
+      "shortDescription": "Task library and homepage for sim soaring pilots",
+      "description": "WeSimGlide is a web platform that hosts a global task library for sim soaring enthusiasts. It features an interactive world map, powerful search and filtering tools, IGC file uploads, and leaderboards. Weekly group events from SSC and other soaring communities are showcased with full task details and results, making it easy to discover, fly, and analyze gliding tasks from around the sim world.",
+      "url": "https://wesimglide.org",
       "links": [               
-        { "title": "wesimglide.org", "url": "https://wesimglide.org" }
+        { "title": "Homepage", "url": "https://wesimglide.org" },
+        { "title": "World Map", "url": "https://wesimglide.org/?tab=map" }
       ]
     },	
 	  {
@@ -258,9 +253,6 @@
 	    "url": "https://xp-soaring.github.io/tasks/b21_task_planner/index.html",
       "shortDescription": "Planner and analyzer for sim glider tasks",
       "description": "The B21 Task Planner is a website that is used to create glider tasks and export them as flight plans (PLN) that can be used in MSFS. You can also upload your filght tracks (IGC) to the page and analyze your flights.",   
-      "remoteVersion": {
-        "type": "none"
-      },
       "links": [               
         { "title": "Homepage", "url": "https://xp-soaring.github.io/tasks/b21_task_planner" },
         { "title": "Documentation" },
@@ -274,7 +266,7 @@
       "imageUrl": "https://raw.githubusercontent.com/Felteshobbies/ssc-installer-data/production/banners/banner_robin.png",
       "forMsfs2020": false,
       "forMsfs2024": true,
-      "required": true,
+      "required": false,
       "communityInstall": true,
       "targetDirectory": "SSC_towplane_robin",
       "type": "binary",
