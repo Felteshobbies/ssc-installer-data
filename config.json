@@ -266,7 +266,7 @@
         { "title": "wesimglide.org", "url": "https://wesimglide.org" }
       ]
     },	
-	{
+	  {
       "key": "b21taskplanner",
       "name": "B21 Task Planner",
 	    "imageUrl": "https://raw.githubusercontent.com/Felteshobbies/ssc-installer-data/production/banners/banner_planner.png",
@@ -276,24 +276,21 @@
       "required": true,
       "communityInstall": false,
       "type": "link", 
-	  "url": "https://xp-soaring.github.io/tasks/b21_task_planner/index.html",
-      "shortDescription": "Aircraft tracking and task monitoring for glider pilots",
-      "description": "SSC-Tracker is the companion app for the Sim Soaring Club.\n\nIt provides real-time aircraft tracking on a map, terrain and wind data display, and task monitoring for soaring activities in Microsoft Flight Simulator.\n\nConnect with other SSC pilots during weekly group flights and competitions.",
-      "iconUrl": "https://www.ssc-tracker.org/sscWhite.png",      
+	    "url": "https://xp-soaring.github.io/tasks/b21_task_planner/index.html",
+      "shortDescription": "Planner and Analyzer for Sim Glider Tasks",
+      "description": "The B21 Task Planner is a website that is used to create glider tasks and export them as flight plans (PLN) that can be used in MSFS. You can also upload your filght tracks (IGC) to the page and analyze your flights.",   
       "remoteVersion": {
         "type": "none"
       },
-      "localVersion": {
-        "type": "directoryNotEmpty"
-      },
       "links": [               
-        { "title": "wesimglide.org", "url": "https://wesimglide.org" }
+        { "title": "Homepage", "url": "https://xp-soaring.github.io/tasks/b21_task_planner" },
+        { "title": "Documentation" }
       ]
-    },
+     },
      {
       "key": "SSC_towplane_robin",
       "name": "SSC Towplane Robin",
-      "category": "weather",
+      "category": "glider",
       "imageUrl": "https://raw.githubusercontent.com/Felteshobbies/ssc-installer-data/production/banners/banner_robin.png",
       "forMsfs2020": false,
       "forMsfs2024": true,
