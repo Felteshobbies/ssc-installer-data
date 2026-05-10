@@ -280,7 +280,7 @@
       "type": "binary",
       "shortDescription": "Towplane Robin for MSFS 2024",
       "description": "This mod enhances the stock Robin DR400 aircraft in MSFS 2024, converting it into a functional towplane ideal for launching gliders. It has been tested for efficient aerotows, including the fully ballasted JS3-18 glider from a 1600-foot runway with no wind. This modification addresses the limitations of existing towplanes in the simulator, providing a more reliable launch mechanism for gliding enthusiasts7",
-      "downloadUrl": "https://github.com/Felteshobbies/ssc-installer-data/releases/download/SSC_towplane_robin-v0.0.6_2/SSC_towplane_robin_v0.0.6_2Xkvl.zip",
+      "downloadUrl": "https://github.com/Felteshobbies/ssc-installer-data/releases/download/SSC_towplane_robin-v0.0.6/SSC_towplane_robin_v0.0.6_2Xkvl.zip",
       "remoteVersion": {
         "type": "githubRelease",
         "owner": "Felteshobbies",
