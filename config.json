@@ -102,7 +102,9 @@
         "path": "manifest.json",
         "pattern": "\"package_version\":\\s*\"([^\"]+)\""
       },
-      "links": []
+      "links": [
+          {"title": "Homepage", "url": "https://flightsim.to/addon/56827/soaring-weather" }    
+      ]
     },    
 	  {
       "key": "weather-presets-2020",
@@ -130,52 +132,39 @@
         "path": "manifest.json",
         "pattern": "\"package_version\":\\s*\"([^\"]+)\""
       },
-      "links": []
-    },
+      "links": [
+          {"title": "Homepage", "url": "https://flightsim.to/addon/56827/soaring-weather" }          
+      ]
+    },	  
 	  {
-      "key": "as33gt",
-      "name": "AS33 GotFriends",
+      "key": "AS33_MadoloB21",
+      "name": "AS33 MadoloB21",
       "category": "glider",
+      "imageUrl": "https://raw.githubusercontent.com/Felteshobbies/ssc-installer-data/production/banners/banner_as33m.png",
       "forMsfs2020": true,
-      "forMsfs2024": true,
-      "communityInstall": false,
+      "forMsfs2024": false,
+      "required": false,
+      "communityInstall": true,
+      "targetDirectory": "AS33_MadoloB21_2.0.2",
       "type": "binary",
-      "shortDescription": "Aircraft tracking and task monitoring for glider pilots",
-      "description": "SSC-Tracker is the companion app for the Sim Soaring Club.\n\nIt provides real-time aircraft tracking on a map, terrain and wind data display, and task monitoring for soaring activities in Microsoft Flight Simulator.\n\nConnect with other SSC pilots during weekly group flights and competitions.",
-      "iconUrl": "https://www.ssc-tracker.org/sscWhite.png",
-      "downloadUrl": "https://www.ssc-tracker.org/updates/ssc-tracker.zip",
+      "shortDescription": "Madolo & B21",
+      "description": "A high-performance 18 meter flapped glider including a self-launch motor, built-in winch launch, water ballast, and a comprehensive racing instrument panel. It features a real-time nav display, configurable vario with MacCready and Speed-to-Fly, and multifunction instruments that adapt based on flight inputs. Flap settings, ballast, and spoiler-linked braking are accurately modeled, with dynamic flight behavior reflecting ballast state and flap configuration.",
+      "downloadUrl": "https://github.com/Felteshobbies/ssc-installer-data/releases/download/AS33_MadoloB21-v2.0.2/AS33_MadoloB21_2.0.2.zip",
       "remoteVersion": {
-        "type": "none"
+        "type": "githubRelease",
+        "owner": "Felteshobbies",
+        "repo": "ssc-installer-data",
+        "tagPrefix": "AS33_MadoloB21-"
       },
       "localVersion": {
-        "type": "directoryNotEmpty"
+        "type": "fileContent",
+        "path": "manifest.json",
+        "pattern": "\"package_version\":\\s*\"([^\"]+)\""
       },
-      "links": [               
-        { "title": "ssc-tracker.org", "url": "https://www.ssc-tracker.org" }
+      "links": [
+         { "title": "Homepage", "url": "https://flightsim.to/addon/15090/as-33-me" }
       ]
-    },	
-	  {
-      "key": "as33madolo",
-      "name": "AS33 Madolo",
-      "category": "glider",
-      "forMsfs2020": true,
-      "forMsfs2024": true,
-      "communityInstall": false,
-      "type": "binary",
-      "shortDescription": "Aircraft tracking and task monitoring for glider pilots",
-      "description": "SSC-Tracker is the companion app for the Sim Soaring Club.\n\nIt provides real-time aircraft tracking on a map, terrain and wind data display, and task monitoring for soaring activities in Microsoft Flight Simulator.\n\nConnect with other SSC pilots during weekly group flights and competitions.",
-      "iconUrl": "https://www.ssc-tracker.org/sscWhite.png",
-      "downloadUrl": "https://www.ssc-tracker.org/updates/ssc-tracker.zip",
-      "remoteVersion": {
-        "type": "none"
-      },
-      "localVersion": {
-        "type": "directoryNotEmpty"
-      },
-      "links": [               
-        { "title": "ssc-tracker.org", "url": "https://www.ssc-tracker.org" }
-      ]
-    },	
+    },    
 	  {
       "key": "ask21",
       "name": "ASK21",
@@ -201,37 +190,15 @@
       "links": [               
         { "title": "iniBuilds Shop", "url": "https://inibuilds.com/products/f7-simulations-ask-21-msfs" }
       ]
-    },	
-	{
-      "key": "discus",
-      "name": "Discus 2C",
-      "category": "glider",
-      "forMsfs2020": true,
-      "forMsfs2024": true,
-      "communityInstall": false,
-      "type": "binary",
-      "shortDescription": "Aircraft tracking and task monitoring for glider pilots",
-      "description": "SSC-Tracker is the companion app for the Sim Soaring Club.\n\nIt provides real-time aircraft tracking on a map, terrain and wind data display, and task monitoring for soaring activities in Microsoft Flight Simulator.\n\nConnect with other SSC pilots during weekly group flights and competitions.",
-      "iconUrl": "https://www.ssc-tracker.org/sscWhite.png",
-      "downloadUrl": "https://www.ssc-tracker.org/updates/ssc-tracker.zip",
-      "remoteVersion": {
-        "type": "none"
-      },
-      "localVersion": {
-        "type": "directoryNotEmpty"
-      },
-      "links": [               
-        { "title": "ssc-tracker.org", "url": "https://www.ssc-tracker.org" }
-      ]
-    },
+    },		  
     {
       "key": "pirat",
       "name": "SZD30 Pirat",
-      "category": "weather",
+      "category": "glider",
       "imageUrl": "https://raw.githubusercontent.com/Felteshobbies/ssc-installer-data/production/banners/banner_pirat.png",
       "forMsfs2020": true,
       "forMsfs2024": true,
-      "required": true,
+      "required": false,
       "communityInstall": true,
       "targetDirectory": "yanosik-pirat",
       "type": "binary",
@@ -249,8 +216,39 @@
         "path": "manifest.json",
         "pattern": "\"package_version\":\\s*\"([^\"]+)\""
       },
-      "links": []
-    },    
+      "links": [
+         { "title": "Homepage", "url": "https://flightsim.to/addon/64509/szd-30-pirat" }
+      ]
+    },  
+    {
+      "key": "LS4_MadoloB21",
+      "name": "LS4",
+      "category": "glider",
+      "imageUrl": "https://raw.githubusercontent.com/Felteshobbies/ssc-installer-data/production/banners/banner_ls4.png",
+      "forMsfs2020": true,
+      "forMsfs2024": true,
+      "required": false,
+      "communityInstall": true,
+      "targetDirectory": "LS4_MadoloB21_1.6.1",
+      "type": "binary",
+      "shortDescription": "Madolo & B21",
+      "description": "Standard Class glider (15m, no flaps) with ballast and competition instruments. This was a competition racing glider from the 1980’s, winning the first two places in the World Championship 1981 and the first SIX places in 1983. It is easy to fly with great handling and carries ballast well.",
+      "downloadUrl": "https://github.com/Felteshobbies/ssc-installer-data/releases/download/LS4_MadoloB21-v1.6.1/LS4_MadoloB21_1.6.1.zip",
+      "remoteVersion": {
+        "type": "githubRelease",
+        "owner": "Felteshobbies",
+        "repo": "ssc-installer-data",
+        "tagPrefix": "LS4_MadoloB21-"
+      },
+      "localVersion": {
+        "type": "fileContent",
+        "path": "manifest.json",
+        "pattern": "\"package_version\":\\s*\"([^\"]+)\""
+      },
+      "links": [
+         { "title": "Homepage", "url": "https://flightsim.to/addon/27986/rolladen-schneider-ls4" }
+      ]
+    },  
 	  {
       "key": "wesimglide",
       "name": "WeSimGlide",
@@ -312,7 +310,9 @@
         "path": "manifest.json",
         "pattern": "\"package_version\":\\s*\"([^\"]+)\""
       },
-      "links": []
+      "links": [
+         { "title": "Homepage", "url": "https://flightsim.to/addon/90217/ssc-robin-dr400-towplane-mod-v0-0-2-for-msfs2024" }
+      ]
     }
 
 
