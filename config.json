@@ -7,7 +7,7 @@
     "links": [
       { "title": "Website",       "url": "https://simsoaring.club" },
       { "title": "Discord",       "url": "https://discord.simsoaring.club" },
-      { "title": "Documentation", "url": "https://docs.simsoaring.club" }
+      { "title": "Documentation", "url": "https://simsoaring.club/how-to" }
     ]
   },
   "categories": [
@@ -284,8 +284,8 @@
         { "title": "Documentation" },
         { "title": "Video", "url": "https://www.youtube.com/watch?v=29bJ1rosR0g"}
       ]
-     },
-     {
+    },
+{
       "key": "SSC_towplane_robin",
       "name": "SSC Towplane Robin",
       "category": "towplanes",
