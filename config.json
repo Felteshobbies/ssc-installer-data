@@ -192,6 +192,60 @@
       ]
     },		  
     {
+      "key": "discus2cfree",
+      "name": "Discus-2c Standard",
+      "category": "glider",
+      "imageUrl": "https://raw.githubusercontent.com/Felteshobbies/ssc-installer-data/production/banners/banner_discus.png",
+      "forMsfs2020": true,
+      "forMsfs2024": true,
+      "communityInstall": true,      
+      "targetDirectory": "gotfriends-discus2c-standard",
+      "type": "shop",
+      "url": "https://www.got-friends.com/collections/freeware/products/discus-2c-standard",
+      "shortDescription": "Got Friends",
+      "description": "The Discus-2c is a single-seat, high-performance sailplane by German glider manufacturer Schempp-Hirth. This is the Freeware Version of the Discus-2c Glider by Got Friends. If you like this add-on, feel free to purchase the Discus-2c Premium for additional gliding features.",     
+       "remoteVersion": {
+        "type": "configValue",
+        "version": "2.1.5"
+      },  
+      "localVersion": {
+        "type": "fileContent",
+        "path": "manifest.json",
+        "pattern": "\"package_version\":\\s*\"([^\"]+)\""
+      },
+      "links": [               
+        { "title": "GotFriends Freeware", "url": "https://www.got-friends.com/collections/freeware/products/discus-2c-standard" },
+        { "title": "Homepage GotFriends", "url": "https://www.got-friends.com" }        
+      ]
+    },		  
+    {
+      "key": "discus2cpay",
+      "name": "Discus-2c Premium",
+      "category": "glider",
+      "imageUrl": "https://raw.githubusercontent.com/Felteshobbies/ssc-installer-data/production/banners/banner_discus.png",
+      "forMsfs2020": true,
+      "forMsfs2024": true,
+      "communityInstall": true,      
+      "targetDirectory": "gotfriends-discus2c-premium",
+      "type": "shop",
+      "url": "https://www.got-friends.com/collections/payware/products/discus-2c-premium",
+      "shortDescription": "Got Friends",
+      "description": "The Discus-2c is a single-seat, high-performance sailplane by German glider manufacturer Schempp-Hirth. This is the Freeware Version of the Discus-2c Glider by Got Friends. If you like this add-on, feel free to purchase the Discus-2c Premium for additional gliding features.",     
+       "remoteVersion": {
+        "type": "configValue",
+        "version": "2.1.5"
+      },  
+      "localVersion": {
+        "type": "fileContent",
+        "path": "manifest.json",
+        "pattern": "\"package_version\":\\s*\"([^\"]+)\""
+      },
+      "links": [                       
+        { "title": "GotFriends Payware", "url": "https://www.got-friends.com/collections/payware/products/discus-2c-premium" },
+        { "title": "Homepage GotFriends", "url": "https://www.got-friends.com" }        
+      ]
+    },		  
+    {
       "key": "pirat",
       "name": "SZD30 Pirat",
       "category": "glider",
@@ -275,7 +329,7 @@
         "pattern": "\"package_version\":\\s*\"([^\"]+)\""
       },
       "links": [
-         { "title": "Homepage", "url": "https://msfs.touching.cloud/mods/ms-dg-808s/" }
+         { "title": "Touchingcloud Homepage", "url": "https://msfs.touching.cloud/mods/ms-dg-808s/" }
       ]
     },  
     {
@@ -289,8 +343,8 @@
       "communityInstall": true,
       "targetDirectory": "zzz_DG808S_B21_mod",
       "type": "binary",
-      "shortDescription": "Touchingcloud",
-      "description": "The DG Flugzeugbau DG-800 series is a family of 15 metre and 18 metre single-seat gliders and motor gliders produced by Glaser-Dirks since 1993 and by DG Flugzeugbau GmbH after 1997. It is the successor to the DG-400 and the DG-600 models. DG808S is 18m wing span competition glider. This modification has 150 pounds thrust retractable jet engine installed, which can be used for taking off or flight sustain.",
+      "shortDescription": "B21 modification",
+      "description": "The DG808S B21 mod enhances the freeware DG808S glider for MSFS2020 and MSFS2024 by introducing improved compatibility and a refined flight model that eliminates high-speed stalls. Additionally, it features upgraded instruments, particularly focusing on the navigation panel. This add-on serves as a supplementary modification for users who have already installed the original DG808 glider package.",
       "downloadUrl": "https://github.com/Felteshobbies/ssc-installer-data/releases/download/zzz_DG808S_B21_mod-v2.0.1/zzz_DG808S_B21_mod.zip",
       "remoteVersion": {
         "type": "githubRelease",
@@ -304,7 +358,7 @@
         "pattern": "\"package_version\":\\s*\"([^\"]+)\""
       },
       "links": [
-         { "title": "Homepage", "url": "https://msfs.touching.cloud/mods/ms-dg-808s/" }
+         { "title": "Homepage", "url": "https://flightsim.to/addon/99431/dg808s-b21-mod" }
       ]
     },  
 	  {
