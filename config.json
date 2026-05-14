@@ -99,7 +99,7 @@
       ]
     },	
 	  {
-      "key": "weather-presets-2024",
+      "key": "SSC-Weather-MSFS_2024",
       "name": "SSC Weather",
       "category": "weather",
       "imageUrl": "https://raw.githubusercontent.com/Felteshobbies/ssc-installer-data/production/banners/banner_weather.png",
@@ -128,7 +128,7 @@
       ]
     },    
 	  {
-      "key": "weather-presets-2020",
+      "key": "SSC-Weather-MSFS_2020",
       "name": "SSC Weather",
       "category": "weather",
       "imageUrl": "https://raw.githubusercontent.com/Felteshobbies/ssc-installer-data/production/banners/banner_weather.png",
@@ -158,7 +158,7 @@
       ]
     },	  
 	  {
-      "key": "AS33_MadoloB21",
+      "key": "AS 33me",
       "name": "AS33 MadoloB21",
       "category": "glider",
       "imageUrl": "https://raw.githubusercontent.com/Felteshobbies/ssc-installer-data/production/banners/banner_as33m.png",
@@ -187,7 +187,7 @@
       ]
     },    
 	  {
-      "key": "ask21",
+      "key": "ASK 21",
       "name": "ASK21",
       "category": "glider",
       "imageUrl": "https://raw.githubusercontent.com/Felteshobbies/ssc-installer-data/production/banners/banner_ask21.png",
@@ -296,7 +296,7 @@
       ]
     },  
     {
-      "key": "LS4_MadoloB21",
+      "key": "LS4 15m",
       "name": "LS4",
       "category": "glider",
       "imageUrl": "https://raw.githubusercontent.com/Felteshobbies/ssc-installer-data/production/banners/banner_ls4.png",
