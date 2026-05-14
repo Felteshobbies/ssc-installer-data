@@ -368,7 +368,7 @@
       "type": "binary",
       "shortDescription": "15m und 18m Madolo & B21",
       "description": "A 15m/18m flapped racing glider with full support for ballast, flaps and a fully-functioning competition instrument panel. The flight model has been carefully tailored to provide the glide performance of the real aircraft. The Jonker JS3 18m can be considered a direct competitor to the AS33.",
-      "downloadUrl": "https://github.com/Felteshobbies/ssc-installer-data/releases/download/JS3_MadoloB21-v.2.0.3/JS3-18_MadoloB21.zip",
+      "downloadUrl": "https://github.com/Felteshobbies/ssc-installer-data/releases/download/JS3_MadoloB21-v2.0.3/JS3_MadoloB21.zip",
       "remoteVersion": {
         "type": "githubRelease",
         "owner": "Felteshobbies",
