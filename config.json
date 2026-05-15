@@ -1,8 +1,8 @@
 { 
   "version": 1,
   "installer": {
-  "latestVersion": "1.0.5",
-  "downloadUrl": "https://github.com/Felteshobbies/ssc-installer-data/releases/download/v1.0.5/Ssc-Installer.exe"  },
+  "latestVersion": "1.0.7",
+  "downloadUrl": "https://github.com/Felteshobbies/ssc-installer-data/releases/download/v1.0.7/Ssc-Installer.exe"  },
   "home": {
     "links": [
       { "title": "Website",       "url": "https://simsoaring.club" },
@@ -276,6 +276,8 @@
       "required": false,
       "communityInstall": true,
       "targetDirectory": "touchingcloud-aircraft-dg808s",
+      "additionalFolders": ["touchingcloud-liveries-dg808s"],
+      "communityFolderRoot": true,
       "type": "binary",
       "shortDescription": "Touchingcloud",
       "description": "The DG Flugzeugbau DG-800 series is a family of 15 metre and 18 metre single-seat gliders and motor gliders produced by Glaser-Dirks since 1993 and by DG Flugzeugbau GmbH after 1997. It is the successor to the DG-400 and the DG-600 models. DG808S is 18m wing span competition glider. This modification has 150 pounds thrust retractable jet engine installed, which can be used for taking off or flight sustain.",
@@ -339,7 +341,7 @@
       "type": "binary",
       "shortDescription": "15m und 18m Madolo & B21",
       "description": "A 15m/18m flapped racing glider with full support for ballast, flaps and a fully-functioning competition instrument panel. The flight model has been carefully tailored to provide the glide performance of the real aircraft. The Jonker JS3 18m can be considered a direct competitor to the AS33.",
-      "downloadUrl": "https://github.com/Felteshobbies/ssc-installer-data/releases/download/JS3_MadoloB21-v2.0.3/https://github.com/Felteshobbies/ssc-installer-data/releases/download/JS3_MadoloB21-v2.0.3/JS3_MadoloB21_2.3.5.zip",
+      "downloadUrl": "https://github.com/Felteshobbies/ssc-installer-data/releases/download/JS3_MadoloB21-v2.0.3/JS3_MadoloB21_2.3.5.zip",
       "remoteVersion": {
         "type": "githubRelease",
         "owner": "Felteshobbies",
@@ -355,7 +357,36 @@
          { "title": "Homepage", "url": "https://flightsim.to/addon/56083/jonker-js3-rapture" }
       ]
     },  
-   
+
+    {
+      "key": "K7 Rhoenadler",
+      "name": "K7",
+      "category": "glider",
+      "imageUrl": "https://raw.githubusercontent.com/Felteshobbies/ssc-installer-data/production/banners/banner_k7.png",
+      "forMsfs2020": true,
+      "forMsfs2024": true,
+      "required": false,
+      "communityInstall": true,
+      "targetDirectory": "K7_GlideSimmer_B21_2.4.6",
+      "type": "binary",
+      "shortDescription": "Glidesimmer & B21",
+      "description": "Experience the vintage charm of the Schleicher K7 Rhönadler two-seater glider in Microsoft Flight Simulator. This faithfully modelled training glider from 1960 offers a glide ratio of approximately 26:1 and features a detailed design inside and out. Take to the skies in this historic aircraft and enjoy the enhanced features and improvements in the latest version 1.3.2, including adjusted polar, increased airbrake effectiveness, and more.",
+      "downloadUrl": "https://github.com/Felteshobbies/ssc-installer-data/releases/download/K7_Glidesimmer_b21-v1.3.2/K7_Glidesimmer_b21_2.4.6.zip",
+      "remoteVersion": {
+        "type": "githubRelease",
+        "owner": "Felteshobbies",
+        "repo": "ssc-installer-data",
+        "tagPrefix": "K7_Glidesimmer_b21-"
+      },
+      "localVersion": {
+        "type": "fileContent",
+        "path": "manifest.json",
+        "pattern": "\"package_version\":\\s*\"([^\"]+)\""
+      },
+      "links": [
+         { "title": "Homepage", "url": "https://flightsim.to/addon/34815/schleicher-k7-glider" }
+      ]
+    },  
  
     {
       "key": "LS4 15m",
@@ -366,7 +397,7 @@
       "forMsfs2024": true,
       "required": false,
       "communityInstall": true,
-      "targetDirectory": "LS4_MadoloB21_1.6.0",
+      "targetDirectory": "LS4_MadoloB21_1.6.1",
       "type": "binary",
       "shortDescription": "Madolo & B21",
       "description": "Standard Class glider (15m, no flaps) with ballast and competition instruments. This was a competition racing glider from the 1980’s, winning the first two places in the World Championship 1981 and the first SIX places in 1983. It is easy to fly with great handling and carries ballast well.",
@@ -386,7 +417,7 @@
          { "title": "Homepage", "url": "https://flightsim.to/addon/27986/rolladen-schneider-ls4" }
       ]
     },  
-   {
+    {
       "key": "SZD-30_PIRAT",
       "name": "SZD-30 Pirat",
       "category": "glider",
@@ -396,6 +427,7 @@
       "required": false,
       "communityInstall": true,
       "targetDirectory": "yanosik-pirat",
+      "ownedFolders": ["yanosik-pirat_1.2"],
       "type": "binary",
       "shortDescription": "Yanosik & B21",
       "description": "A classic Polish 15-meter class glider known for its safety and reliability. With a glide ratio of 31, this wooden glider is a favorite among pilots for its ease of use. Enhance your SZD-30 Pirat Glider experience with the Instruments update, offering new liveries, improved instrument displays, updated sound effects, and cockpit camera adjustments.",
@@ -415,7 +447,35 @@
          { "title": "Homepage", "url": "https://flightsim.to/addon/64509/szd-30-pirat" }
       ]
     },  
-   
+    {
+      "key": "B21 Pirat mod",
+      "name": "SZD-30 Pirat B21 mod",
+      "category": "glider",
+      "imageUrl": "https://raw.githubusercontent.com/Felteshobbies/ssc-installer-data/production/banners/banner_pirat.png",
+      "forMsfs2020": true,
+      "forMsfs2024": true,
+      "required": false,
+      "communityInstall": true,
+      "targetDirectory": "zzz_Pirat_B21_mod_1.3.6",
+      "type": "binary",
+      "shortDescription": "B21 modification",
+      "description": "The DG808S B21 mod enhances the freeware DG808S glider for MSFS2020 and MSFS2024 by introducing improved compatibility and a refined flight model that eliminates high-speed stalls. Additionally, it features upgraded instruments, particularly focusing on the navigation panel. This add-on serves as a supplementary modification for users who have already installed the original DG808 glider package.",
+      "downloadUrl": "https://github.com/Felteshobbies/ssc-installer-data/releases/download/zzz_Pirat_B21_mod-v1.3.0/zzz_Pirat_B21_mod_1.3.6_ShJIv.zip",
+      "remoteVersion": {
+        "type": "githubRelease",
+        "owner": "Felteshobbies",
+        "repo": "ssc-installer-data",
+        "tagPrefix": "zzz_Pirat_B21_mod-"
+      },
+      "localVersion": {
+        "type": "fileContent",
+        "path": "manifest.json",
+        "pattern": "\"package_version\":\\s*\"([^\"]+)\""
+      },
+      "links": [
+         { "title": "Homepage", "url": "https://flightsim.to/addon/99431/dg808s-b21-mod" }
+      ]
+    },     
 	  {
       "key": "wesimglide",
       "name": "WeSimGlide",
