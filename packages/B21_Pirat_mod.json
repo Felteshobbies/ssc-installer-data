@@ -5,7 +5,6 @@
   "imageUrl": "https://raw.githubusercontent.com/Felteshobbies/ssc-installer-data/production/banners/SZD-30_PIRAT.png",
   "forMsfs2020": true,
   "forMsfs2024": true,
-  "required": false,
   "communityInstall": true,
   "targetDirectory": "zzz_Pirat_B21_mod_1.3.6",
   "type": "binary",

@@ -4,7 +4,6 @@
   "category": "glider",
   "forMsfs2020": true,
   "forMsfs2024": true,
-  "required": false,
   "communityInstall": true,
   "targetDirectory": "LS4_MadoloB21_1.6.1",
   "type": "binary",

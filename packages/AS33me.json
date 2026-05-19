@@ -4,7 +4,6 @@
   "category": "glider",
   "forMsfs2020": true,
   "forMsfs2024": false,
-  "required": false,
   "communityInstall": true,
   "targetDirectory": "AS33_MadoloB21_2.0.2",
   "type": "binary",

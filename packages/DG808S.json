@@ -4,7 +4,6 @@
   "category": "glider",
   "forMsfs2020": true,
   "forMsfs2024": true,
-  "required": false,
   "communityInstall": true,
   "targetDirectory": "touchingcloud-aircraft-dg808s",
   "additionalFolders": ["touchingcloud-liveries-dg808s"],

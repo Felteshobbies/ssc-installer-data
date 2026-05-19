@@ -4,7 +4,6 @@
   "category": "glider",
   "forMsfs2020": true,
   "forMsfs2024": true,
-  "required": false,
   "communityInstall": true,
   "targetDirectory": "zzz_DG808S_B21_mod",
   "type": "binary",

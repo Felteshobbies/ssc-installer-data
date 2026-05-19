@@ -4,7 +4,6 @@
   "category": "glider",
   "forMsfs2020": true,
   "forMsfs2024": true,
-  "required": false,
   "communityInstall": true,
   "targetDirectory": "yanosik-pirat",
   "ownedFolders": ["yanosik-pirat_1.2"],
@@ -14,7 +13,7 @@
   "downloadUrl": "https://github.com/Felteshobbies/ssc-installer-data/releases/download/yanosik-pirat-v0.1.0/yanosik-pirat.zip",
   "remoteVersion": {
     "type": "configValue",
-    "version": "1.3.0"
+    "version": "0.1.0"
   },
   "localVersion": {
     "type": "fileContent",

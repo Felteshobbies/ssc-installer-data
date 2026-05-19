@@ -4,7 +4,6 @@
   "category": "towplanes",
   "forMsfs2020": false,
   "forMsfs2024": true,
-  "required": false,
   "communityInstall": true,
   "targetDirectory": "SSC_towplane_robin",
   "type": "binary",
