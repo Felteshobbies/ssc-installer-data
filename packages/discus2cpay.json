@@ -1,0 +1,27 @@
+﻿{
+  "key": "discus2cpay",
+  "name": "Discus-2c Premium",
+  "category": "glider",
+  "imageUrl": "https://raw.githubusercontent.com/Felteshobbies/ssc-installer-data/production/banners/discus2cfree.png",
+  "forMsfs2020": true,
+  "forMsfs2024": true,
+  "communityInstall": true,
+  "targetDirectory": "gotfriends-discus2c-premium",
+  "type": "shop",
+  "url": "https://www.got-friends.com/collections/payware/products/discus-2c-premium",
+  "shortDescription": "Got Friends Payware Digital Download",
+  "description": "The Discus-2c is a single-seat, high-performance sailplane by German glider manufacturer Schempp-Hirth. This is the Freeware Version of the Discus-2c Glider by Got Friends. If you like this add-on, feel free to purchase the Discus-2c Premium for additional gliding features.",
+  "remoteVersion": {
+    "type": "configValue",
+    "version": "2.1.5"
+  },
+  "localVersion": {
+    "type": "fileContent",
+    "path": "manifest.json",
+    "pattern": "\"package_version\":\\s*\"([^\"]+)\""
+  },
+  "links": [
+    { "title": "GotFriends Payware", "url": "https://www.got-friends.com/collections/payware/products/discus-2c-premium" },
+    { "title": "Homepage GotFriends", "url": "https://www.got-friends.com" }
+  ]
+}

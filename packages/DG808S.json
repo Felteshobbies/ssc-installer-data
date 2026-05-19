@@ -1,0 +1,30 @@
+﻿{
+  "key": "DG808S",
+  "name": "DG 808S",
+  "category": "glider",
+  "forMsfs2020": true,
+  "forMsfs2024": true,
+  "required": false,
+  "communityInstall": true,
+  "targetDirectory": "touchingcloud-aircraft-dg808s",
+  "additionalFolders": ["touchingcloud-liveries-dg808s"],
+  "communityFolderRoot": true,
+  "type": "binary",
+  "shortDescription": "Touchingcloud",
+  "description": "The DG Flugzeugbau DG-800 series is a family of 15 metre and 18 metre single-seat gliders and motor gliders produced by Glaser-Dirks since 1993 and by DG Flugzeugbau GmbH after 1997. It is the successor to the DG-400 and the DG-600 models. DG808S is 18m wing span competition glider. This modification has 150 pounds thrust retractable jet engine installed, which can be used for taking off or flight sustain.",
+  "downloadUrl": "https://github.com/Felteshobbies/ssc-installer-data/releases/download/touchingcloud-aircraft-dg808s-v1.3.1/touchingcloud-aircraft-dg808s.zip",
+  "remoteVersion": {
+    "type": "githubRelease",
+    "owner": "Felteshobbies",
+    "repo": "ssc-installer-data",
+    "tagPrefix": "touchingcloud-aircraft-dg808s-"
+  },
+  "localVersion": {
+    "type": "fileContent",
+    "path": "manifest.json",
+    "pattern": "\"package_version\":\\s*\"([^\"]+)\""
+  },
+  "links": [
+    { "title": "Touchingcloud Homepage", "url": "https://msfs.touching.cloud/mods/ms-dg-808s/" }
+  ]
+}

@@ -1,0 +1,28 @@
+﻿{
+  "key": "K7Rhoenadler",
+  "name": "K7",
+  "category": "glider",
+  "forMsfs2020": true,
+  "forMsfs2024": true,
+  "required": false,
+  "communityInstall": true,
+  "targetDirectory": "K7_GlideSimmer_B21_2.4.6",
+  "type": "binary",
+  "shortDescription": "Glidesimmer & B21",
+  "description": "Experience the vintage charm of the Schleicher K7 Rhönadler two-seater glider in Microsoft Flight Simulator. This faithfully modelled training glider from 1960 offers a glide ratio of approximately 26:1 and features a detailed design inside and out. Take to the skies in this historic aircraft and enjoy the enhanced features and improvements in the latest version 1.3.2, including adjusted polar, increased airbrake effectiveness, and more.",
+  "downloadUrl": "https://github.com/Felteshobbies/ssc-installer-data/releases/download/K7_Glidesimmer_b21-v1.3.2/K7_Glidesimmer_b21_2.4.6.zip",
+  "remoteVersion": {
+    "type": "githubRelease",
+    "owner": "Felteshobbies",
+    "repo": "ssc-installer-data",
+    "tagPrefix": "K7_Glidesimmer_b21-"
+  },
+  "localVersion": {
+    "type": "fileContent",
+    "path": "manifest.json",
+    "pattern": "\"package_version\":\\s*\"([^\"]+)\""
+  },
+  "links": [
+    { "title": "Homepage", "url": "https://flightsim.to/addon/34815/schleicher-k7-glider" }
+  ]
+}

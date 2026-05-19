@@ -1,0 +1,29 @@
+﻿{
+  "key": "DG808SB21mod",
+  "name": "DG 808S B21 mod",
+  "category": "glider",
+  "imageUrl": "https://raw.githubusercontent.com/Felteshobbies/ssc-installer-data/production/banners/DG808S.png",
+  "forMsfs2020": true,
+  "forMsfs2024": true,
+  "required": false,
+  "communityInstall": true,
+  "targetDirectory": "zzz_DG808S_B21_mod",
+  "type": "binary",
+  "shortDescription": "B21 modification",
+  "description": "The DG808S B21 mod enhances the freeware DG808S glider for MSFS2020 and MSFS2024 by introducing improved compatibility and a refined flight model that eliminates high-speed stalls. Additionally, it features upgraded instruments, particularly focusing on the navigation panel. This add-on serves as a supplementary modification for users who have already installed the original DG808 glider package.",
+  "downloadUrl": "https://github.com/Felteshobbies/ssc-installer-data/releases/download/zzz_DG808S_B21_mod-v2.0.1/zzz_DG808S_B21_mod.zip",
+  "remoteVersion": {
+    "type": "githubRelease",
+    "owner": "Felteshobbies",
+    "repo": "ssc-installer-data",
+    "tagPrefix": "zzz_DG808S_B21_mod-"
+  },
+  "localVersion": {
+    "type": "fileContent",
+    "path": "manifest.json",
+    "pattern": "\"package_version\":\\s*\"([^\"]+)\""
+  },
+  "links": [
+    { "title": "Homepage", "url": "https://flightsim.to/addon/99431/dg808s-b21-mod" }
+  ]
+}

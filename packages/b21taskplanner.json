@@ -1,0 +1,18 @@
+﻿{
+  "key": "b21taskplanner",
+  "name": "B21 Task Planner",
+  "category": "tasks",
+  "forMsfs2020": true,
+  "forMsfs2024": true,
+  "required": true,
+  "communityInstall": false,
+  "type": "link",
+  "url": "https://xp-soaring.github.io/tasks/b21_task_planner/index.html",
+  "shortDescription": "B21s planner and analyzer for sim glider tasks",
+  "description": "The B21 Task Planner is a website that is used to create glider tasks and export them as flight plans (PLN) that can be used in MSFS. You can also upload your filght tracks (IGC) to the page and analyze your flights.",
+  "links": [
+    { "title": "Homepage", "url": "https://xp-soaring.github.io/tasks/b21_task_planner" },
+    { "title": "Documentation" },
+    { "title": "Video", "url": "https://www.youtube.com/watch?v=29bJ1rosR0g" }
+  ]
+}

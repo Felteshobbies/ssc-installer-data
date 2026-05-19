@@ -1,0 +1,28 @@
+﻿{
+  "key": "SSC-Weather-MSFS_2024",
+  "name": "SSC Weather",
+  "category": "weather",
+  "forMsfs2020": false,
+  "forMsfs2024": true,
+  "required": true,
+  "communityInstall": true,
+  "targetDirectory": "SSC-Weather-MSFS_2024",
+  "type": "binary",
+  "shortDescription": "SSC Soaring Weather Presets for MSFS 2024",
+  "description": "This add-on includes 122 presets optimized to provide realistic lift conditions for thermal and ridge soaring around the world.",
+  "downloadUrl": "https://github.com/Felteshobbies/ssc-installer-data/releases/download/SSC-Weather-MSFS_2024-v4.5.1/SSC-Weather-MSFS_2024.zip",
+  "remoteVersion": {
+    "type": "githubRelease",
+    "owner": "Felteshobbies",
+    "repo": "ssc-installer-data",
+    "tagPrefix": "SSC-Weather-MSFS_2024-"
+  },
+  "localVersion": {
+    "type": "fileContent",
+    "path": "manifest.json",
+    "pattern": "\"package_version\":\\s*\"([^\"]+)\""
+  },
+  "links": [
+    { "title": "Homepage", "url": "https://flightsim.to/addon/56827/soaring-weather" }
+  ]
+}

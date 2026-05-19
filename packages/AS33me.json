@@ -1,0 +1,28 @@
+﻿{
+  "key": "AS33me",
+  "name": "AS33 MadoloB21",
+  "category": "glider",
+  "forMsfs2020": true,
+  "forMsfs2024": false,
+  "required": false,
+  "communityInstall": true,
+  "targetDirectory": "AS33_MadoloB21_2.0.2",
+  "type": "binary",
+  "shortDescription": "Madolo & B21",
+  "description": "A high-performance 18 meter flapped glider including a self-launch motor, built-in winch launch, water ballast, and a comprehensive racing instrument panel. It features a real-time nav display, configurable vario with MacCready and Speed-to-Fly, and multifunction instruments that adapt based on flight inputs. Flap settings, ballast, and spoiler-linked braking are accurately modeled, with dynamic flight behavior reflecting ballast state and flap configuration.",
+  "downloadUrl": "https://github.com/Felteshobbies/ssc-installer-data/releases/download/AS33_MadoloB21-v2.0.2/AS33_MadoloB21_2.0.2.zip",
+  "remoteVersion": {
+    "type": "githubRelease",
+    "owner": "Felteshobbies",
+    "repo": "ssc-installer-data",
+    "tagPrefix": "AS33_MadoloB21-"
+  },
+  "localVersion": {
+    "type": "fileContent",
+    "path": "manifest.json",
+    "pattern": "\"package_version\":\\s*\"([^\"]+)\""
+  },
+  "links": [
+    { "title": "Homepage", "url": "https://flightsim.to/addon/15090/as-33-me" }
+  ]
+}

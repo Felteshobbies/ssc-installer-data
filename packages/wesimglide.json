@@ -1,0 +1,15 @@
+﻿{
+  "key": "wesimglide",
+  "name": "WeSimGlide",
+  "category": "tasks",
+  "forMsfs2020": true,
+  "forMsfs2024": true,
+  "type": "link",
+  "shortDescription": "Task library and homepage for sim soaring pilots",
+  "description": "WeSimGlide is a web platform that hosts a global task library for sim soaring enthusiasts. It features an interactive world map, powerful search and filtering tools, IGC file uploads, and leaderboards. Weekly group events from SSC and other soaring communities are showcased with full task details and results, making it easy to discover, fly, and analyze gliding tasks from around the sim world.",
+  "url": "https://wesimglide.org",
+  "links": [
+    { "title": "Homepage", "url": "https://wesimglide.org" },
+    { "title": "World Map", "url": "https://wesimglide.org/?tab=map" }
+  ]
+}
