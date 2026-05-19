@@ -13,10 +13,8 @@
   "description": "A classic Polish 15-meter class glider known for its safety and reliability. With a glide ratio of 31, this wooden glider is a favorite among pilots for its ease of use. Enhance your SZD-30 Pirat Glider experience with the Instruments update, offering new liveries, improved instrument displays, updated sound effects, and cockpit camera adjustments.",
   "downloadUrl": "https://github.com/Felteshobbies/ssc-installer-data/releases/download/yanosik-pirat-v0.1.0/yanosik-pirat.zip",
   "remoteVersion": {
-    "type": "githubRelease",
-    "owner": "Felteshobbies",
-    "repo": "ssc-installer-data",
-    "tagPrefix": "yanosik-pirat-"
+    "type": "configValue",
+    "version": "1.3.0"
   },
   "localVersion": {
     "type": "fileContent",

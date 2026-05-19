@@ -12,10 +12,8 @@
   "description": "This add-on includes 122 presets optimized to provide realistic lift conditions for thermal and ridge soaring around the world.",
   "downloadUrl": "https://github.com/Felteshobbies/ssc-installer-data/releases/download/SSC-Weather-MSFS_2024-v4.5.1/SSC-Weather-MSFS_2024.zip",
   "remoteVersion": {
-    "type": "githubRelease",
-    "owner": "Felteshobbies",
-    "repo": "ssc-installer-data",
-    "tagPrefix": "SSC-Weather-MSFS_2024-"
+    "type": "configValue",
+    "version": "4.5.1"
   },
   "localVersion": {
     "type": "fileContent",

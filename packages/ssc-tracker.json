@@ -13,7 +13,8 @@
   "downloadUrl": "https://www.ssc-tracker.org/updates/ssc-tracker.zip",
   "launchExe": "ssc-tracker.exe",
   "remoteVersion": {
-    "type": "none"
+    "type": "configValue",
+    "version": "0.8.0.9"
   },
   "localVersion": {
     "type": "fileVersion",
