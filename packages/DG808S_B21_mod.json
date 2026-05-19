@@ -1,22 +1,21 @@
 ﻿{
-  "key": "B21Piratmod",
-  "name": "SZD-30 Pirat B21 mod",
+  "key": "DG808S_B21_mod",
+  "name": "DG 808S B21 mod",
   "category": "glider",
-  "imageUrl": "https://raw.githubusercontent.com/Felteshobbies/ssc-installer-data/production/banners/SZD-30_PIRAT.png",
   "forMsfs2020": true,
   "forMsfs2024": true,
   "required": false,
   "communityInstall": true,
-  "targetDirectory": "zzz_Pirat_B21_mod_1.3.6",
+  "targetDirectory": "zzz_DG808S_B21_mod",
   "type": "binary",
   "shortDescription": "B21 modification",
   "description": "The DG808S B21 mod enhances the freeware DG808S glider for MSFS2020 and MSFS2024 by introducing improved compatibility and a refined flight model that eliminates high-speed stalls. Additionally, it features upgraded instruments, particularly focusing on the navigation panel. This add-on serves as a supplementary modification for users who have already installed the original DG808 glider package.",
-  "downloadUrl": "https://github.com/Felteshobbies/ssc-installer-data/releases/download/zzz_Pirat_B21_mod-v1.3.0/zzz_Pirat_B21_mod_1.3.6.zip",
+  "downloadUrl": "https://github.com/Felteshobbies/ssc-installer-data/releases/download/zzz_DG808S_B21_mod-v2.0.1/zzz_DG808S_B21_mod.zip",
   "remoteVersion": {
     "type": "githubRelease",
     "owner": "Felteshobbies",
     "repo": "ssc-installer-data",
-    "tagPrefix": "zzz_Pirat_B21_mod-"
+    "tagPrefix": "zzz_DG808S_B21_mod-"
   },
   "localVersion": {
     "type": "fileContent",

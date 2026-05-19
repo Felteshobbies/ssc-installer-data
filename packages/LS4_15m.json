@@ -2,7 +2,6 @@
   "key": "LS4_15m",
   "name": "LS4",
   "category": "glider",
-  "imageUrl": "https://raw.githubusercontent.com/Felteshobbies/ssc-installer-data/production/banners/banner_ls4.png",
   "forMsfs2020": true,
   "forMsfs2024": true,
   "required": false,

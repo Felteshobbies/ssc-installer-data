@@ -2,7 +2,6 @@
   "key": "discus2cpay",
   "name": "Discus-2c Premium",
   "category": "glider",
-  "imageUrl": "https://raw.githubusercontent.com/Felteshobbies/ssc-installer-data/production/banners/discus2cfree.png",
   "forMsfs2020": true,
   "forMsfs2024": true,
   "communityInstall": true,

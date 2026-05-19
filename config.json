@@ -22,7 +22,7 @@
     { "key": "towplanes", "title": "Towplanes" }
   ],
   "packages": [
-    "b21taskplanner",
+    "b21_taskplanner",
     "ssc-tracker",
     "nb21-logger",
     "SSC-Weather-MSFS_2024",
@@ -32,12 +32,12 @@
     "discus2cfree",
     "discus2cpay",
     "DG808S",
-    "DG808SB21mod",
-    "JS3MadoloB21",
-    "K7Rhoenadler",
+    "DG808S_B21_mod",
+    "JS3_MadoloB21",
+    "K7_Rhoenadler",
     "LS4_15m",
     "SZD-30_PIRAT",
-    "B21Piratmod",
+    "B21_Pirat_mod",
     "wesimglide",
     "SSC_towplane_robin"
   ]
