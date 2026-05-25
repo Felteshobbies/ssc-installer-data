@@ -9,12 +9,10 @@
   "type": "binary",
   "shortDescription": "Madolo & B21",
   "description": "Standard Class glider (15m, no flaps) with ballast and competition instruments. This was a competition racing glider from the 1980's, winning the first two places in the World Championship 1981 and the first SIX places in 1983. It is easy to fly with great handling and carries ballast well.",
-  "downloadUrl": "https://github.com/Felteshobbies/ssc-installer-data/releases/download/LS4_MadoloB21-v1.6.1/LS4_MadoloB21_1.6.1.zip",
+  "downloadUrl": "https://github.com/Felteshobbies/ssc-installer-data/releases/download/LS4_MadoloB21_1.6.1/LS4_MadoloB21_1.6.1_NBaf7.zip",
   "remoteVersion": {
-    "type": "githubRelease",
-    "owner": "Felteshobbies",
-    "repo": "ssc-installer-data",
-    "tagPrefix": "LS4_MadoloB21-"
+    "type": "configValue",
+    "version": "1.6.1"
   },
   "localVersion": {
     "type": "fileContent",
