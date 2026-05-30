@@ -1,0 +1,26 @@
+﻿{
+  "key": "AS33got",
+  "name": "AS33 GotFriends",
+  "category": "glider",
+  "forMsfs2020": false,
+  "forMsfs2024": true,
+  "communityInstall": true,
+  "targetDirectory": "gotfriends-as-33-me-2024",
+  "type": "shop",
+  "url": "https://www.got-friends.com/collections/payware/products/as-33-me",
+  "shortDescription": "Got Friends Payware Digital Download",
+  "description": "A high-performance 18 meter flapped glider including a self-launch motor, built-in winch launch, water ballast, and a comprehensive racing instrument panel. It features a real-time nav display, configurable vario with MacCready and Speed-to-Fly, and multifunction instruments that adapt based on flight inputs. Flap settings, ballast, and spoiler-linked braking are accurately modeled, with dynamic flight behavior reflecting ballast state and flap configuration.",
+  "remoteVersion": {
+    "type": "configValue",
+    "version": "1.0.6"
+  },
+  "localVersion": {
+    "type": "fileContent",
+    "path": "manifest.json",
+    "pattern": "\"package_version\":\\s*\"([^\"]+)\""
+  },
+  "links": [
+    { "title": "GotFriends Payware", "url": "https://www.got-friends.com/collections/payware/products/as-33-me" },
+    { "title": "Homepage GotFriends", "url": "https://www.got-friends.com" }
+  ]
+}
