@@ -1,15 +1,15 @@
 {
   "version": 1,
   "installer": {
-    "latestVersion": "1.0.10",
-    "downloadUrl": "https://github.com/Felteshobbies/ssc-installer-data/releases/download/v1.0.10/Ssc-Installer.exe"
+    "latestVersion": "1.0.11",
+    "downloadUrl": "https://github.com/Felteshobbies/ssc-installer-data/releases/download/v1.0.11/Ssc-Installer.exe"
   },
   "home": {
     "links": [
+      { "title": "README",      "url": "https://github.com/Felteshobbies/ssc-installer-data/blob/production/README.md" },
       { "title": "Website",     "url": "https://simsoaring.club" },
       { "title": "Discord",     "url": "https://discord.simsoaring.club" },
-      { "title": "How to join", "url": "https://simsoaring.club/how-to" },
-      { "title": "Help",        "url": "https://simsoaring.club" },
+      { "title": "How to join", "url": "https://simsoaring.club/how-to" },     
       { "title": "About",       "url": "https://simsoaring.club" }
     ]
   },
