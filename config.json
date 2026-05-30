@@ -23,12 +23,10 @@
   ],
   "packages": [
     "b21_taskplanner",
-    "ssc-tracker",
     "nb21-logger",
-    "SSC-Weather-MSFS_2024",
-    "SSC-Weather-MSFS_2020",
     "AS33me",
     "ASK21",
+    "B21_Pirat_mod",
     "discus2cfree",
     "discus2cpay",
     "DG808S",
@@ -36,9 +34,11 @@
     "JS3_MadoloB21",
     "K7_Rhoenadler",
     "LS4_15m",
-    "SZD-30_PIRAT",
-    "B21_Pirat_mod",
-    "wesimglide",
-    "SSC_towplane_robin"
+    "ssc-tracker",
+    "SSC-Weather-MSFS_2024",
+    "SSC-Weather-MSFS_2020",
+    "SZD-30_PIRAT",    
+    "SSC_towplane_robin",
+    "wesimglide"
   ]
 }
