@@ -59,7 +59,7 @@ Some packages (SSC-Tracker, NB21 Logger, …) have a **Start** button once insta
 Before every install or update the installer automatically creates a backup of the existing folder. Backups are stored in:
 
 ```
-%LOCALAPPDATA%\SscInstaller\Backups\
+%LOCALAPPDATA%\Ssc-Installer\Backups\
 ```
 
 Each backup is listed in **Settings → Backups**. You can restore any backup from there or directly in the package view.
