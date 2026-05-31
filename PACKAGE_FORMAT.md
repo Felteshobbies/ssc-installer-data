@@ -70,6 +70,7 @@ Each package is defined as a JSON object in its own file. The `type` field deter
 | `shortDescription` | ✓ | One-line subtitle shown in the package list. |
 | `description` | ✓ | Full description shown on the package detail page. |
 | `imageUrl` | | Banner image URL. Defaults to `{baseUrl}banners/{key}.png`. |
+| `title` | | MSFS manifest title. When set, the Settings → Scan can detect packages installed under a non-standard folder name by reading `manifest.json`. Omit to disable manifest-based scan detection for this package. |
 | `links` | | Array of `{ "title": "...", "url": "..." }` shown as buttons below the description. |
 
 ---
@@ -159,6 +160,7 @@ The installer finds the first `.exe` in the zip at any depth and uses that direc
 | Field | Required | Description |
 |---|---|---|
 | `communityInstall` | ✓ | Must be `false`. |
+| `targetDirectory` | | Subfolder name the package will be installed as inside the App Base Dir. Defaults to the package `key`. |
 | `downloadUrl` | ✓ | Direct download URL for the zip file. |
 | `launchExe` | | Relative path to the `.exe` to launch (e.g. `"ssc-tracker.exe"`). Enables the "Start" button. |
 | `remoteVersion` | | See [Version Detection](#version-detection). |

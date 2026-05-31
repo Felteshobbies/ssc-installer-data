@@ -1,6 +1,7 @@
 ﻿{
   "key": "SSC-Weather-MSFS_2024",
   "name": "SSC Weather",
+  "title": "SSC-Weather-MSFS_2024",
   "category": "weather",
   "forMsfs2020": false,
   "forMsfs2024": true,
