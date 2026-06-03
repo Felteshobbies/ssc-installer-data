@@ -2,7 +2,7 @@
   "key": "weight_and_balance",
   "name": "Weight and Balance",
   "title": "Legacy Weight and Balance",
-  "category": "glider",
+  "category": "tools",
   "forMsfs2020": false,
   "forMsfs2024": true,
   "communityInstall": true,
