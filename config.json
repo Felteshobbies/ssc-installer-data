@@ -20,7 +20,7 @@
     { "key": "tracker",   "title": "Tracker" },
     { "key": "tasks",     "title": "Tasks" },
     { "key": "towplanes", "title": "Towplanes" },
-    { "key": "tools", "title": "Tools" },
+    { "key": "tools", "title": "Tools" }
   ],
   "packages": [
     "b21_taskplanner",
