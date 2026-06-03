@@ -19,7 +19,8 @@
     { "key": "logger",    "title": "Logger" },
     { "key": "tracker",   "title": "Tracker" },
     { "key": "tasks",     "title": "Tasks" },
-    { "key": "towplanes", "title": "Towplanes" }
+    { "key": "towplanes", "title": "Towplanes" },
+    { "key": "tools", "title": "Tools" },
   ],
   "packages": [
     "b21_taskplanner",
@@ -40,6 +41,7 @@
     "SZD-30_PIRAT",
     "B21_Pirat_mod",
     "SSC_towplane_robin",
+    "weight_and_balance",
     "wesimglide"
   ]
 }
