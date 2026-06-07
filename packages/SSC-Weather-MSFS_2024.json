@@ -20,7 +20,7 @@
   "localVersion": {
     "type": "fileContent",
     "path": "manifest.json",
-    "pattern": "\"package_version\":\\s*\"([^\"]+)\""
+    "pattern": "(?m)^  \"package_version\":\\s*\"([^\"]+)\""
   },
   "links": [
     { "title": "Homepage", "url": "https://flightsim.to/addon/56827/soaring-weather" }
