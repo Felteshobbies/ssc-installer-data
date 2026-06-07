@@ -1,20 +1,21 @@
 ﻿{
   "key": "SSC-Weather-MSFS_2020",
   "name": "SSC Weather",
-  "title": "SSC-Weather-MSFS_2020",
+  "title": "SSC-Weather-MSFS_2020_v2",
   "category": "weather",
   "forMsfs2020": true,
   "forMsfs2024": false,
   "required": true,
   "communityInstall": true,
-  "targetDirectory": "SSC-Weather-MSFS_2020",
+  "targetDirectory": "SSC-Weather-MSFS_2020_v2",
+  "ownedFolders": ["SSC-Weather-MSFS_2020"],
   "type": "binary",
-  "shortDescription": "SSC Soaring Weather Presets for MSFS 2020",
-  "description": "This add-on includes 122 presets optimized to provide realistic lift conditions for thermal and ridge soaring around the world.",
-  "downloadUrl": "https://github.com/Felteshobbies/ssc-installer-data/releases/download/SSC-Weather-MSFS_2020-v4.5.1/SSC-Weather-MSFS_2020.zip",
-   "remoteVersion": {
+  "shortDescription": "SSC Soaring Weather Presets for MSFS 2020 (Georg)",
+  "description": "This add-on includes 400 presets optimized to provide realistic lift conditions for thermal and ridge soaring around the world.",
+  "downloadUrl": "https://github.com/Felteshobbies/ssc-installer-data/releases/download/SSC-Weather-MSFS_2020_v2/SSC-Weather-MSFS_2020_v2_XZLB6.zip",
+  "remoteVersion": {
     "type": "configValue",
-    "version": "4.5.1"
+    "version": "5.0.0"
   },
   "localVersion": {
     "type": "fileContent",
