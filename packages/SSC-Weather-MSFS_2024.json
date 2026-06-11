@@ -12,10 +12,10 @@
   "type": "binary",
   "shortDescription": "SSC Soaring Weather Presets for MSFS 2024 (Georg and MajorDad)",
   "description": "This package includes 400 weather presets, designed for thermal soaring, ridge flying, cross-country tasks, group flights, and atmospheric glider adventures. Choose from clear skies, low and high cumulus, overcast conditions, standard ridge winds, and high-altitude wind profiles. The MSFS 2024 version also includes a new in-flight toolbar panel with preset filtering, manual preset selection, date and time controls, and a Surprise Me button for instant soaring scenarios.",
-  "downloadUrl": "https://github.com/Felteshobbies/ssc-installer-data/releases/download/SSC-Weather-MSFS_2024/SSC-Weather-MSFS_2024_v2_9Wuvf.zip",
+  "downloadUrl": "https://github.com/Felteshobbies/ssc-installer-data/releases/download/SSC-Weather-MSFS_2024/SSC-Weather-MSFS_2024_v2_psAwV.zip",
   "remoteVersion": {
     "type": "configValue",
-    "version": "5.0.1"
+    "version": "5.0.2"
   },
   "localVersion": {
     "type": "fileContent",
