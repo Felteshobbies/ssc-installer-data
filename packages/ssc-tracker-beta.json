@@ -4,7 +4,7 @@
   "category": "tracker",
   "forMsfs2020": true,
   "forMsfs2024": true,
-  "required": true,
+  "required": false,
   "communityInstall": false,
   "targetDirectory": "SSC-Tracker-beta",
   "type": "binary",
