@@ -14,7 +14,7 @@
   "launchExe": "ssc-tracker.exe",
   "remoteVersion": {
     "type": "configValue",
-    "version": "0.8.0.9"
+    "version": "0.8.0.10"
   },
   "localVersion": {
     "type": "fileVersion",
