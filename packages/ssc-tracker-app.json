@@ -1,20 +1,21 @@
 ﻿{
-  "key": "ssc-tracker-beta",
-  "name": "SSC-Tracker-beta",
+  "key": "ssc-tracker-app",
+  "name": "SSC-Tracker",
   "category": "tracker",
   "forMsfs2020": true,
   "forMsfs2024": true,
   "required": false,
   "communityInstall": false,
-  "targetDirectory": "SSC-Tracker-beta",
+  "targetDirectory": "SSC-Tracker-App",
+  "ownedFolders": ["SSC-Tracker-beta"],
   "type": "binary",
   "shortDescription": "Aircraft tracking and task monitoring for glider pilots",
   "description": "SSC-Tracker is the companion app for the Sim Soaring Club. It provides real-time aircraft tracking on a map, terrain and wind data display, and task monitoring for soaring activities in Microsoft Flight Simulator. Connect with other SSC pilots during weekly group flights and competitions.",
-  "downloadUrl": "https://github.com/Felteshobbies/ssc-installer-data/releases/download/SSC-Tracker-v1.0.1b/SSC-Tracker.zip",
+  "downloadUrl": "https://github.com/Felteshobbies/ssc-installer-data/releases/download/SSC-Tracker-v1.0.5/SSC-Tracker-App.zip",
   "launchExe": "ssc-tracker.exe",
   "remoteVersion": {
     "type": "configValue",
-    "version": "1.0.1.0"
+    "version": "1.0.5.0"
   },
   "localVersion": {
     "type": "fileVersion",
