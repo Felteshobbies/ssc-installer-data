@@ -13,7 +13,7 @@
   "description": "A high-performance 18 meter flapped glider including a self-launch motor, built-in winch launch, water ballast, and a comprehensive racing instrument panel. It features a real-time nav display, configurable vario with MacCready and Speed-to-Fly, and multifunction instruments that adapt based on flight inputs. Flap settings, ballast, and spoiler-linked braking are accurately modeled, with dynamic flight behavior reflecting ballast state and flap configuration.",
   "remoteVersion": {
     "type": "configValue",
-    "version": "1.0.6"
+    "version": "1.0.7"
   },
   "localVersion": {
     "type": "fileContent",
