@@ -10,11 +10,11 @@
   "type": "binary",
   "shortDescription": "Sim gliding data logger for MSFS from B21.",
   "description": "Track, log, and analyze your flights in Microsoft Flight Simulator with NB21 Logger. This application creates IGC-format tracklogs compatible with glider flights or any aircraft, featuring real-world UTC time recording and advanced data capabilities.",
-  "downloadUrl": "https://github.com/Felteshobbies/ssc-installer-data/releases/download/nb21_Logger_1.2.8/nb21_Logger_1.2.8.zip",
+  "downloadUrl": "https://github.com/Felteshobbies/ssc-installer-data/releases/download/nb21_Logger_1.2.9/nb21_Logger_1.2.9.zip",
   "launchExe": "NB21_logger.exe",
   "remoteVersion": {
     "type": "configValue",    
-    "version": "1.2.8"
+    "version": "1.2.9"
   },
   "localVersion": {
     "type": "fileContent",
