@@ -598,7 +598,7 @@
         "LXN": true,
         "TITLE": "JS3-15 (Madolo)",
         "MAX_WEIGHT_KG": 525,
-        "VNE_TAS_KPH": 292,
+        "VNE_TAS_KPH": 293.4,
         "POLAR_WEIGHT_KG": 363,
         "POLAR_CURVE": [
           [
@@ -718,7 +718,7 @@
         "LXN": true,
         "TITLE": "JS3-18 (BC)",
         "MAX_WEIGHT_KG": 600,
-        "VNE_TAS_KPH": 292,
+        "VNE_TAS_KPH": 293.4,
         "POLAR_WEIGHT_KG": 400,
         "POLAR_CURVE": [
           [
