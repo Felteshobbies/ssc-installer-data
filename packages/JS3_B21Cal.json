@@ -1,0 +1,27 @@
+﻿{
+  "key": "JS3_B21Cal",
+  "name": "JS3 B21Cal",
+  "title": "JS 3 B21-CalVR 18m",
+  "category": "glider",
+  "forMsfs2020": true,
+  "forMsfs2024": true,
+  "communityInstall": true,
+  "targetDirectory": "b21cal-js3-18_1.0.9",
+  "communityFolderRoot": true,  
+  "type": "binary",
+  "shortDescription": "18m B21 & CalVR",
+  "description": "This freeware glider has been built from the ground up for MSFS2024 - I hope you agree the modelling by CalVR is to an exceptional standard.",
+  "downloadUrl": "https://github.com/Felteshobbies/ssc-installer-data/releases/download/JS3_B21Cal_v1.0.9/b21cal-js3-18_1.0.9_HjuI1.zip",
+  "remoteVersion": {
+    "type": "configValue",
+    "version": "1.0.9"
+  },
+  "localVersion": {
+    "type": "fileContent",
+    "path": "manifest.json",
+    "pattern": "\"package_version\":\\s*\"([^\"]+)\""
+  },
+  "links": [
+    { "title": "Homepage", "url": "https://flightsim.to/addon/114452/jonker-js3-18-for-msfs2024-by-calvr-and-b21" }
+  ]
+}
