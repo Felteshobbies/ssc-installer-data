@@ -1,8 +1,8 @@
 {
   "version": 1,
   "installer": {
-    "latestVersion": "1.0.14",
-    "downloadUrl": "https://github.com/Felteshobbies/ssc-installer-data/releases/download/v1.0.14/SSC-Installer.exe"
+    "latestVersion": "1.0.17",
+    "downloadUrl": "https://github.com/Felteshobbies/ssc-installer-data/releases/download/v1.0.17/SSC-Installer.exe"
   },
   "home": {
     "links": [
