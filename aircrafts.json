@@ -8,6 +8,7 @@
       {
         "WING_SPAN": 18,
         "KEY": "AS33",
+        "FLAPS": ["1", "2", "3", "4", "N", "5", "6", "L"],
         "LXN": true,
         "TITLE": "AS-33 (Madolo)",
         "MAX_WEIGHT_KG": 600,
@@ -129,6 +130,7 @@
       {
         "WING_SPAN": 15,
         "KEY": "AS33-15",
+        "FLAPS": ["1", "2", "3", "4", "N", "5", "6", "L"],
         "LXN": true,
         "TITLE": "AS-33 15m (GotFriends)",
         "MAX_WEIGHT_KG": 550,
@@ -242,6 +244,7 @@
       {
         "WING_SPAN": 18,
         "KEY": "AS33-18",
+        "FLAPS": ["1", "2", "3", "4", "N", "5", "6", "L"],
         "LXN": true,
         "TITLE": "AS-33 18m (GotFriends)",
         "MAX_WEIGHT_KG": 600,
@@ -482,6 +485,7 @@
       {
         "WING_SPAN": 18,
         "KEY": "JS3-18",
+        "FLAPS": ["1", "2", "3", "4", "5", "L", "L"],
         "LXN": true,
         "TITLE": "JS3-18 (Madolo)",
         "MAX_WEIGHT_KG": 600,
@@ -595,6 +599,7 @@
       {
         "WING_SPAN": 15,
         "KEY": "JS3-15",
+        "FLAPS": ["1", "2", "3", "4", "5", "L", "L"],
         "LXN": true,
         "TITLE": "JS3-15 (Madolo)",
         "MAX_WEIGHT_KG": 525,
@@ -715,6 +720,7 @@
       {
         "WING_SPAN": 18,
         "KEY": "JS3-18-BC",
+        "FLAPS": ["1", "2", "3", "4", "5", "L", "L"],
         "LXN": true,
         "TITLE": "JS3-18 (BC)",
         "MAX_WEIGHT_KG": 600,
@@ -828,6 +834,7 @@
       {
         "WING_SPAN": 15,
         "KEY": "JS3-15-BC",
+        "FLAPS": ["1", "2", "3", "4", "5", "L", "L"],
         "LXN": true,
         "TITLE": "JS3-15 (BC)",
         "MAX_WEIGHT_KG": 525,
@@ -1076,6 +1083,7 @@
       {
         "WING_SPAN": 18,
         "KEY": "DG808S",
+        "FLAPS": ["-3", "-2", "-1", "0", "T1", "T2", "L"],
         "LXN": false,
         "TITLE": "DG808S (Touching Cloud)",
         "MAX_WEIGHT_KG": 600,
